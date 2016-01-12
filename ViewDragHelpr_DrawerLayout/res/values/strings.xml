@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewDragHelpr_DrawerLayout</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="array_left_menu">
+        <item>立即欣赏</item>
+        <item>我的乐库</item>
+        <item>播放列表</item>
+    </string-array>
+</resources>

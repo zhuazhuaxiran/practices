@@ -1,0 +1,36 @@
+<com.example.viewdraghelper_smalldemo.VDHLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ff00ff"
+        android:gravity="center"
+        android:text="I am a button that can be dragged !" 
+        android:onClick="canClick"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ffff00"
+        android:gravity="center"
+        android:text="I can go back !" 
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="#44ff5555"
+        android:gravity="center"
+        android:text="I can be tracked by edge !" />
+
+</com.example.viewdraghelper_smalldemo.VDHLayout>

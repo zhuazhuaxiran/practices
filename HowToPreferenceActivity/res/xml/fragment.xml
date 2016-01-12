@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--  分组 -->
+    <PreferenceCategory 
+        android:key="@string/myLocation"
+        android:summary="@string/myLoc_sum"
+        android:title="@string/myLoc_title">
+
+    <CheckBoxPreference
+        android:key="@string/wireless_network"
+        android:summary="@string/wireless_net_summ"
+        android:title="@string/wireless_net_tit"/>    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:key="@string/mymsg"
+        android:summary="@string/mymsg_sum"
+        android:title="@string/mynsg_tit">
+        <EditTextPreference 
+            android:key="@string/myname"
+            android:title="@string/myname_tit"
+            android:summary="@string/myname_sum"/>
+    </PreferenceCategory>
+</PreferenceScreen>
